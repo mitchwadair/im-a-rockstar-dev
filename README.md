@@ -14,7 +14,7 @@ The first step to run these programs is to clone this repo to your machine.
 
 ## Windows
 
-For windows, use the `run.ps1` script. For example, to run `hello_world.rock`:
+For windows, use the `run.ps1` script in Powershell. For example, to run `hello_world.rock`:
 
 ```sh
 # Assuming you are in the `im-a-rockstar-dev` directory
