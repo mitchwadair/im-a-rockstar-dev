@@ -1,0 +1,31 @@
+My Function takes an array
+The value is empty
+Until an array is nothing
+Roll an array into temp
+Cast temp into a char
+Let the value be with a char
+
+Give back the value
+
+Hello is 72
+Rock hello with 101
+l is 108
+Rock hello with l, l
+Rock hello with 111
+
+World is 87
+Rock world with 111
+Rock world with 114
+Rock world with l
+Rock world with 100
+Rock world with 33
+
+Let Result be my function taking hello
+Let Second Part be my function taking world
+
+Space is 32
+Cast space
+Let result be with space
+Let result be with Second Part
+
+Give result
