@@ -1,0 +1,23 @@
+Modulus takes a number, the divisor
+Until a number is lower than the divisor
+Let a number be minus the divisor
+
+Return a number
+
+Let count be 0
+Let limit be 100
+Until count is as high as limit
+Build count up
+Let my string be silent
+If Modulus taking count, 3 is nothing
+Let my string be with "Fizz"
+
+If Modulus taking count, 5 is nothing
+Let my string be with "Buzz"
+
+If my string aint nothing
+Say my string
+Else
+Say count
+
+Return nothing
