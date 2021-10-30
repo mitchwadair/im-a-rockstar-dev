@@ -22,12 +22,18 @@ if (-not (Test-Path -Path $program_path -PathType Leaf))
     Exit
 }
 
-mkdir rockstar > $null
-cd rockstar
-git clone https://github.com/RockstarLang/rockstar --quiet
-cd rockstar/satriani
-npm install --silent
-node rockstar $program_path
-
-cd $start_dir
-rm -Recurse -Force rockstar
+# Run the program, gracefully exit if interrupted
+try
+{
+    mkdir rockstar > $null
+    cd rockstar
+    git clone https://github.com/RockstarLang/rockstar --quiet
+    cd rockstar/satriani
+    npm install --silent
+    node rockstar $program_path
+}
+finally
+{
+    cd $start_dir
+    rm -Recurse -Force rockstar
+}
