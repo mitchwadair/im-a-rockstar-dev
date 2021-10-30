@@ -1,8 +1,28 @@
+Builder takes an array
+My string is silent
+Until an array is nothing
+Pop an array into temp
+Cast temp
+Let my string be with temp
+
+Return my string
+
 Modulus takes a number, the divisor
 Until a number is lower than the divisor
 Let a number be minus the divisor
 
 Return a number
+
+Fizz is 70
+Rock fizz with 105
+z is 122
+Rock fizz with z, z
+Let fizz be Builder taking fizz
+
+Buzz is 66
+Rock buzz with 117
+Rock buzz with z, z
+Let buzz be Builder taking buzz
 
 Let count be 0
 Let limit be 100
@@ -10,10 +30,10 @@ Until count is as high as limit
 Build count up
 Let my string be silent
 If Modulus taking count, 3 is nothing
-Let my string be with "Fizz"
+Let my string be with fizz
 
 If Modulus taking count, 5 is nothing
-Let my string be with "Buzz"
+Let my string be with buzz
 
 If my string aint nothing
 Say my string
