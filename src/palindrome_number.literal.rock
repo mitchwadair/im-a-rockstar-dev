@@ -1,0 +1,21 @@
+Shout "Input a number"
+Listen to the input
+
+Split the input into an array
+Let the length be an array
+Put the length over 2 into half
+Turn up half
+
+The count is 0
+Palindrome is true
+Until the count is as high as half
+Let the back be an array minus 1 minus the count
+Put an array at the count into First
+Put an array at the back into Second
+If First without Second aint nothing
+Palindrome is false
+Break
+
+Build the count up
+
+Say Palindrome

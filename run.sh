@@ -3,6 +3,14 @@
 name=$1
 start_dir=$(pwd)
 
+function shut_down()
+{
+    cd $start_dir
+    rm -rf rockstar
+}
+
+trap shut_down EXIT SIGINT
+
 if [[ -z $name ]]; then
     echo "ERROR: Specify file to run"
     echo "USAGE: 'rockstar my_program.rock'"
@@ -21,6 +29,3 @@ git clone https://github.com/RockstarLang/rockstar --quiet
 cd rockstar/satriani
 npm install --silent
 node rockstar $program_path
-
-cd $start_dir
-rm -rf rockstar
