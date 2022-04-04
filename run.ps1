@@ -30,6 +30,7 @@ try
     git clone https://github.com/RockstarLang/rockstar --quiet
     cd rockstar/satriani
     npm install --silent
+    npm run --silent pegjs
     node rockstar $program_path
 }
 finally
